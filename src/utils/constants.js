@@ -11,11 +11,11 @@ constants.ABIsSources = {
 constants.userDeniedTransactionPattern = 'User denied transaction'
 constants.rootPath = '/poa-dapps-validators'
 constants.branches = {
-  TENDA: 'tenda'
+  TENDA: 'tenda',
 //  DAI: 'dai',
 //  CORE: 'core',
 //  SOKOL: 'sokol',
-//  KOVAN: 'kovan'
+  KOVAN: 'kovan'
 }
 
 constants.navigationData = [
