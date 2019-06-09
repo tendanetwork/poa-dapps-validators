@@ -1,5 +1,5 @@
 const constants = {}
-constants.organization = 'poanetwork'
+constants.organization = 'tendanetwork'
 constants.repoName = 'poa-chain-spec'
 constants.addressesSourceFile = 'contracts.json'
 constants.ABIsSources = {
@@ -11,10 +11,11 @@ constants.ABIsSources = {
 constants.userDeniedTransactionPattern = 'User denied transaction'
 constants.rootPath = '/poa-dapps-validators'
 constants.branches = {
-  DAI: 'dai',
-  CORE: 'core',
-  SOKOL: 'sokol',
-  KOVAN: 'kovan'
+  DAI: 'tenda'
+//  DAI: 'dai',
+//  CORE: 'core',
+//  SOKOL: 'sokol',
+//  KOVAN: 'kovan'
 }
 
 constants.navigationData = [
@@ -35,6 +36,15 @@ constants.navigationData = [
   }
 ]
 
+constants.NETWORKS = {
+  '177': {
+    NAME: 'Tenda',
+    RPC: 'https://rpc.tenda.network',
+    BRANCH: 'tenda',
+    TESTNET: false
+  }
+}
+/*
 constants.NETWORKS = {
   '42': {
     NAME: 'Kovan',
@@ -61,7 +71,7 @@ constants.NETWORKS = {
     TESTNET: false
   }
 }
-
+*/
 module.exports = {
   constants
 }
