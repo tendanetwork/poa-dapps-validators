@@ -12,9 +12,9 @@ constants.userDeniedTransactionPattern = 'User denied transaction'
 constants.rootPath = '/poa-dapps-validators'
 constants.branches = {
   TENDA: 'tenda',
-//  DAI: 'dai',
-//  CORE: 'core',
-//  SOKOL: 'sokol',
+  DAI: 'dai',
+  CORE: 'core',
+  SOKOL: 'sokol',
   KOVAN: 'kovan'
 }
 
