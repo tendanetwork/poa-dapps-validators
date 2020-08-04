@@ -38,7 +38,7 @@ constants.navigationData = [
 
 constants.NETWORKS = {
   '177': {
-    NAME: 'Tenda',
+    NAME: 'Tenda-dev',
     RPC: 'https://rpc.dev.tenda.network',
     BRANCH: constants.branches.TENDA,
     TESTNET: true
