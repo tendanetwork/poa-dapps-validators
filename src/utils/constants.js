@@ -11,7 +11,7 @@ constants.ABIsSources = {
 constants.userDeniedTransactionPattern = 'User denied transaction'
 constants.rootPath = '/poa-dapps-validators'
 constants.branches = {
-  TENDA: 'tenda',
+  TENDA: 'tenda-dev',
   DAI: 'dai',
   CORE: 'core',
   SOKOL: 'sokol',
